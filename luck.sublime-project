@@ -1,0 +1,44 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"C:/Users/oni/Desktop/voxedit/processing-4.2-win/processing-java.exe",
+				"--sketch=$file_path",
+				"--output=$file_path/build",
+				"--force",
+				"--run"
+			],
+			"name": "ProcessingWIN",
+			"path": "$file_path	emp"
+		},
+		{
+			"cmd":
+			[
+				"/usr/local/bin/processing-java",
+				"--sketch=$file_path",
+				"--output=$file_path/build",
+				"--force",
+				"--run"
+			],
+			"name": "Processing OSX",
+			"path": "$file_path	emp"
+		}
+	],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"folder_exclude_patterns":
+            [
+                "build"
+            ],
+            "file_exclude_patterns":
+            [
+
+            ]
+		}
+	]
+}
